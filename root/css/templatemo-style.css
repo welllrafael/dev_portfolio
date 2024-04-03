@@ -171,7 +171,7 @@ h1,h2,h3,h4,h5
 /* start home */       
 #home
 	{
-        background: url('../images/home-bg.jpg');
+        background: linear-gradient(rgba(0,0,0,.6) 100%,rgba(0,0,0,.6) 100%),url('../images/home-bg.png');
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 120px;
@@ -363,18 +363,20 @@ h1,h2,h3,h4,h5
     {
         height: 50px;
     }
-#contact input[type="submit"]
+#contact #send
     {
         background: #D43F52;
         border: 2px solid transparent;
         color: #ffffff;
         font-weight: bold;
         transition: all 0.4s ease-in-out;
+        text-align: center;
     }
-#contact input[type="submit"]:hover
+#contact #send:hover
     {
         background: #ffffff;
         color: #D43F52;
+        cursor: pointer;
     }
 /* end contact */
 
